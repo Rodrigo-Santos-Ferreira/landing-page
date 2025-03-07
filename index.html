@@ -3,90 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Streaming Fictício</title>
+    <title>Rodrigo Streaming</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <!-- Cabeçalho -->
     <header>
-        <div class="logo">
-            <h1>Streaming Fictício</h1>
-        </div>
+        <h1>Rodrigo Streaming</h1>
         <nav>
-            <a href="#">Sobre</a>
-            <a href="#">Planos</a>
-            <a href="#">Contato</a>
-            <button class="cta-button">Assine agora</button>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#planos">Planos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
         </nav>
+        <a href="#planos" class="cta-button">Assine agora</a>
     </header>
 
-    <!-- Seção de Introdução -->
     <section class="hero">
-        <div class="hero-text">
-            <h2>Seu entretenimento, na hora que quiser!</h2>
-            <p>Assista aos melhores filmes e séries por um preço acessível.</p>
-            <button class="cta-button">Assine agora e aproveite!</button>
-        </div>
+        <div class="overlay"></div>
+        <h2>Seu entretenimento, na hora que quiser!</h2>
+        <p>Assista aos melhores filmes e séries por um preço acessível.</p>
+        <a href="#planos" class="cta-button">Assine agora e aproveite!</a>
     </section>
 
-    <!-- Planos e Preços -->
-    <section class="pricing">
+    <section id="planos">
         <h2>Escolha o seu plano</h2>
-        <div class="pricing-tables">
-            <div class="plan">
+        <div class="planos-container">
+            <div class="plano">
                 <h3>Plano Mensal</h3>
                 <p>R$ 20,00/mês</p>
-                <button class="cta-button">Assine agora</button>
+                <a href="#" class="cta-button">Assine agora</a>
             </div>
-            <div class="plan">
+            <div class="plano destaque">
                 <h3>Plano Trimestral</h3>
                 <p>R$ 60,00 (3 meses por R$ 20/mês)</p>
-                <button class="cta-button">Assine agora</button>
+                <a href="#" class="cta-button">Assine agora</a>
             </div>
-            <div class="plan">
+            <div class="plano">
                 <h3>Plano Anual</h3>
                 <p>R$ 180,00/ano (R$ 15/mês)</p>
-                <button class="cta-button">Assine agora</button>
+                <a href="#" class="cta-button">Assine agora</a>
             </div>
         </div>
     </section>
 
-    <!-- Destaques do Produto -->
-    <section class="features">
-        <h2>Por que escolher nosso serviço?</h2>
-        <div class="feature">
-            <h3>Conteúdo Exclusivo</h3>
-            <p>Filmes e séries que você não encontra em nenhum outro lugar.</p>
-        </div>
-        <div class="feature">
-            <h3>Assista em qualquer dispositivo</h3>
-            <p>Tenha acesso no seu celular, tablet, computador e smart TV.</p>
-        </div>
-        <div class="feature">
-            <h3>Qualidade 4K</h3>
-            <p>Assista com a melhor qualidade de imagem disponível.</p>
+    <section id="depoimentos">
+        <h2>O que nossos usuários falam</h2>
+        <div class="depoimentos-container">
+            <div class="depoimento">
+                <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Usuária 1">
+                <p>"A melhor plataforma de streaming! Conteúdo incrível e preço acessível."</p>
+                <span>- Maria S.</span>
+            </div>
+            <div class="depoimento">
+                <img src="https://randomuser.me/api/portraits/men/45.jpg" alt="Usuário 2">
+                <p>"Assino há meses e estou muito satisfeito. Recomendo!"</p>
+                <span>- João P.</span>
+            </div>
         </div>
     </section>
 
-    <!-- Depoimentos -->
-    <section class="testimonials">
-        <h2>O que nossos usuários dizem</h2>
-        <p>"Melhor streaming, com conteúdo incrível e preço justo!" - Usuário Satisfeito</p>
-        <p>"Assino o plano anual e nunca mais me preocupei com pagamentos!" - Influenciador A</p>
-    </section>
-
-    <!-- Rodapé -->
     <footer>
-        <div>
-            <a href="#">Termos de Serviço</a>
-            <a href="#">Política de Privacidade</a>
-            <a href="#">Contato</a>
-        </div>
-        <div>
-            <p>&copy; 2025 Streaming Fictício. Todos os direitos reservados.</p>
-        </div>
+        <p>&copy; 2025 Rodrigo Streaming. Todos os direitos reservados.</p>
     </footer>
-
 </body>
 </html>
